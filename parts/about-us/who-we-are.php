@@ -1,5 +1,5 @@
 <div class="who-we-are__container">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us/who_we_are/who-we-are.svg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us/who_we_are/who-we-are.svg" alt="who-we-are"/>
     <div class="who-we-are__content_container">
         <h2 class="heading--h2">Who we are</h2>
         <div class="who-we-are__content">
