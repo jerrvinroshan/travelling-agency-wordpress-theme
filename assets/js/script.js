@@ -83,73 +83,78 @@ popUpCloseIcon.addEventListener("click", function (e) {
 });
 
 // Recruiter Zone
-const recruiterBtn = document.querySelector(".navbar_link--black--btn");
-const recruiterContainer = document.querySelector(
-  ".recruiter__pop-up__overlay"
-);
-const recruiterCloseIcon = document.querySelector(
-  ".recruiter__pop-up__box >.form_close-icon"
-);
-const recruiterForm = document.querySelector(".recruiter__pop-up__form");
-recruiterForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  const whatsappNumber = "918438150717";
-  const recruiterName = document.getElementById("recruiterName").value;
-  const companyName = document.getElementById("companyName").value;
-  const companyEmail = document.getElementById("companyEmail").value;
-  const recruiterContact = document.getElementById("recruiterContact").value;
-  const recruiterNeed = document.getElementById("recruiterNeed").value;
-  const message = `Hi, My name is ${recruiterName}, We are contacting from ${companyName}.\nWe looking for ${recruiterNeed}.\nTo contact us Email : ${companyEmail} and Phone Number : ${recruiterContact}`;
-  const whatsAppURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-  window.open(whatsAppURL, "__blank");
-});
+function desktopRecruiter() {
+  const recruiterBtn = document.querySelector(".navbar_link--black--btn");
+  const recruiterContainer = document.querySelector(
+    ".recruiter__pop-up__overlay"
+  );
+  const recruiterCloseIcon = document.querySelector(
+    ".recruiter__pop-up__box >.form_close-icon"
+  );
+  const recruiterForm = document.querySelector(".recruiter__pop-up__form");
+  recruiterForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const whatsappNumber = "918438150717";
+    const recruiterName = document.getElementById("recruiterName").value;
+    const companyName = document.getElementById("companyName").value;
+    const companyEmail = document.getElementById("companyEmail").value;
+    const recruiterContact = document.getElementById("recruiterContact").value;
+    const recruiterNeed = document.getElementById("recruiterNeed").value;
+    const message = `Hi, My name is ${recruiterName}, We are contacting from ${companyName}.\nWe looking for ${recruiterNeed}.\nTo contact us Email : ${companyEmail} and Phone Number : ${recruiterContact}`;
+    const whatsAppURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsAppURL, "__blank");
+  });
 
-recruiterBtn.addEventListener("click", function (e) {
-  e.preventDefault();
-  recruiterContainer.style.display = "flex";
-});
+  recruiterBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    recruiterContainer.style.display = "flex";
+  });
 
-recruiterCloseIcon.addEventListener("click", function (e) {
-  e.preventDefault();
-  recruiterContainer.style.display = "none";
-});
-
+  recruiterCloseIcon.addEventListener("click", function (e) {
+    e.preventDefault();
+    recruiterContainer.style.display = "none";
+  });
+}
+desktopRecruiter();
 // Post Resume
-const postResumeBtn = document.querySelector(".navbar_call-btn");
-const postResumeContainer = document.querySelector(
-  ".post-resume__pop-up__overlay"
-);
-const postResumeCloseIcon = document.querySelector(
-  ".post-resume__pop-up__box >.form_close-icon"
-);
-const postResumeForm = document.querySelector(".post-resume__pop-up__form");
+function desktopPostResume() {
+  const postResumeBtn = document.querySelector(".navbar_call-btn");
+  const postResumeContainer = document.querySelector(
+    ".post-resume__pop-up__overlay"
+  );
+  const postResumeCloseIcon = document.querySelector(
+    ".post-resume__pop-up__box >.form_close-icon"
+  );
+  const postResumeForm = document.querySelector(".post-resume__pop-up__form");
 
-postResumeBtn.addEventListener("click", function (e) {
-  e.preventDefault();
-  postResumeContainer.style.display = "flex";
-});
+  postResumeBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    postResumeContainer.style.display = "flex";
+    console.log("clicked");
+  });
 
-postResumeCloseIcon.addEventListener("click", function (e) {
-  e.preventDefault();
-  postResumeContainer.style.display = "none";
-});
+  postResumeCloseIcon.addEventListener("click", function (e) {
+    e.preventDefault();
+    postResumeContainer.style.display = "none";
+  });
 
-postResumeForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  const fullName = document.getElementById("applicantFullName").value;
-  const email = document.getElementById("applicantEmail").value;
-  const phoneNumber = document.getElementById("applicantContact").value;
-  const yourself = document.getElementById("applicantDescription").value;
-  const whatsappNumber = "918438150717";
-  const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nDescribe Yourself: ${yourself}`;
-  const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-  window.open(whatsAppMessageLink, "__blank");
-});
-
+  postResumeForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const fullName = document.getElementById("applicantFullName").value;
+    const email = document.getElementById("applicantEmail").value;
+    const phoneNumber = document.getElementById("applicantContact").value;
+    const yourself = document.getElementById("applicantDescription").value;
+    const whatsappNumber = "918438150717";
+    const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nDescribe Yourself: ${yourself}`;
+    const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsAppMessageLink, "__blank");
+  });
+}
+desktopPostResume();
 // Contact us
 
 const contactUsForm = document.querySelector(
@@ -171,3 +176,94 @@ contactUsForm.addEventListener("submit", function (e) {
   )}`;
   window.open(whatsAppMessageLink, "__blank");
 });
+
+// Mobile
+
+const openMenu = document.querySelector(".navbar__container_menu > i");
+const menuContent = document.querySelector(".navbar__content_container");
+
+openMenu.addEventListener("click", function (e) {
+  e.preventDefault();
+  menuContent.classList.toggle("active")
+  openMenu.classList.toggle("fa-bars");
+  openMenu.classList.toggle("fa-close");
+});
+
+// Recruiter Zone
+function mobileRecruiter() {
+  const recruiterBtn = document.querySelector(
+    ".navbar__content_container > .navbar_link--black--btn"
+  );
+  const recruiterContainer = document.querySelector(
+    ".recruiter__pop-up__overlay"
+  );
+  const recruiterCloseIcon = document.querySelector(
+    ".recruiter__pop-up__box >.form_close-icon"
+  );
+  const recruiterForm = document.querySelector(".recruiter__pop-up__form");
+  recruiterForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const whatsappNumber = "918438150717";
+    const recruiterName = document.getElementById("recruiterName").value;
+    const companyName = document.getElementById("companyName").value;
+    const companyEmail = document.getElementById("companyEmail").value;
+    const recruiterContact = document.getElementById("recruiterContact").value;
+    const recruiterNeed = document.getElementById("recruiterNeed").value;
+    const message = `Hi, My name is ${recruiterName}, We are contacting from ${companyName}.\nWe looking for ${recruiterNeed}.\nTo contact us Email : ${companyEmail} and Phone Number : ${recruiterContact}`;
+    const whatsAppURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsAppURL, "__blank");
+  });
+
+  recruiterBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    recruiterContainer.style.display = "flex";
+  });
+
+  recruiterCloseIcon.addEventListener("click", function (e) {
+    e.preventDefault();
+    recruiterContainer.style.display = "none";
+  });
+}
+mobileRecruiter();
+
+// Post Resume
+function MobilePostResume() {
+  const postResumeBtn = document.querySelector(
+    ".navbar__content_container > .navbar_call-btn"
+  );
+  const postResumeContainer = document.querySelector(
+    ".post-resume__pop-up__overlay"
+  );
+  const postResumeCloseIcon = document.querySelector(
+    ".post-resume__pop-up__box >.form_close-icon"
+  );
+  const postResumeForm = document.querySelector(".post-resume__pop-up__form");
+
+  postResumeBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    postResumeContainer.style.display = "flex";
+    console.log("clicked");
+  });
+
+  postResumeCloseIcon.addEventListener("click", function (e) {
+    e.preventDefault();
+    postResumeContainer.style.display = "none";
+  });
+
+  postResumeForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const fullName = document.getElementById("applicantFullName").value;
+    const email = document.getElementById("applicantEmail").value;
+    const phoneNumber = document.getElementById("applicantContact").value;
+    const yourself = document.getElementById("applicantDescription").value;
+    const whatsappNumber = "918438150717";
+    const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nDescribe Yourself: ${yourself}`;
+    const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsAppMessageLink, "__blank");
+  });
+}
+MobilePostResume();

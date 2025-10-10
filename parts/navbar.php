@@ -1,4 +1,4 @@
-<nav class="navbar_container">
+<nav class="navbar_container desktop">
     <!-- Banner -->
     <div class="nav_banner__bg-color">
         <div class="nav_banner__section">
@@ -43,4 +43,21 @@
         </ul>
 
     </div>
+</nav>
+
+<nav class="navbar_container mobile">
+    <div class="navbar__container_menu">
+        <a href="#home" class="navbar_link">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Anent Consultant" />
+        </a>
+        <i class="fa-solid fa-bars"></i>
+    </div><div class="navbar__content_container">
+    <a href="#home">Home</a>
+    <a href="#about-us">About us</a>
+    <a href="#services">Services</a>
+    <a href="#current-job">Current Job</a>
+    <a href="#" class="navbar_link--black navbar_link--black--btn">Recruiter Zone</a>
+    <a href="#contact-us">Contact us</a>
+    <a href="#"  class="navbar_link--black navbar_call-btn">Post Resume</a>
+</div>
 </nav>

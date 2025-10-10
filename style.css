@@ -2,7 +2,7 @@
 Theme Name: Consultant Agency
 Author: CookiesSpace.pvt.ltd
 Author URI: https://cookiesspace.com
-Version: 1.0
+Version: 2.0
  */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
@@ -53,6 +53,7 @@ Version: 1.0
   background-color: #041a2b;
   opacity: 0.8;
 }
+
 .nav_banner__section {
   display: flex;
   justify-content: space-between;
@@ -108,6 +109,40 @@ Version: 1.0
 .navbar_link--black.navbar_call-btn:hover {
   background-color: var(--primary-color-13);
   text-decoration: none;
+}
+
+/* Mobile */
+.mobile {
+  display: none;
+  background-color: #041a2b;
+  color: var(--primary-color-0);
+}
+.navbar__container_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin-inline: auto;
+  align-items: center;
+}
+.navbar__container_menu > i {
+  color: var(--primary-color-0);
+}
+.navbar__content_container {
+  flex-direction: column;
+  gap: 24px;
+  margin-inline: auto;
+  padding: 1rem;
+  align-items: center;
+  display: none;
+}
+.navbar__content_container.active{
+  display: flex;
+}
+.navbar__content_container > a {
+  color: var(--primary-color-0);
+  text-decoration: none;
+  font-size: var(--font-14px);
 }
 
 /* Home page */
@@ -290,14 +325,19 @@ Version: 1.0
   display: flex;
   gap: 28px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .about-us__info--img {
   border-radius: 8px;
+  max-width: 770px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
 .about-us__info_content {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  max-width: 542px;
 }
 .about-us__info_content_wrapper.right_image {
   flex-direction: row-reverse;
@@ -337,6 +377,7 @@ Version: 1.0
   justify-content: space-between;
   align-items: center;
   gap: 100px;
+  flex-wrap: wrap;
 }
 .who-we-are__content_container {
   max-width: 770px;
@@ -348,11 +389,17 @@ Version: 1.0
 .who-we-are__content_container > .heading--h2 {
   text-align: left;
 }
+.who-we-are__container > img {
+  width: 100%;
+  max-width: 470px;
+  object-fit: cover;
+}
 .who-we-are__content {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
+
 .who-we-are__content > p {
   font-size: var(--font-14px);
 }
@@ -376,6 +423,7 @@ Version: 1.0
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 0.5rem;
 }
 .process__content {
   display: flex;
@@ -385,6 +433,7 @@ Version: 1.0
 }
 .process__content > img {
   border-radius: 24px;
+  width: 100%;
 }
 
 .process__content > div {
@@ -470,14 +519,20 @@ Version: 1.0
   font-family: var(--header-font);
   font-weight: 700;
 }
+.services__content > img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
 .services__content > div {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
+
 .services__content > div > p {
   font-size: var(--font-14px);
 }
+
 .services__btn {
   font-size: var(--font-14px);
   color: var(--primary-color-13);
@@ -566,6 +621,8 @@ Version: 1.0
   flex-wrap: wrap;
   gap: 28px;
   align-items: center;
+  width: 98%;
+  margin-inline: auto;
 }
 /* Left Side */
 .contact-us__content_container {
@@ -575,6 +632,8 @@ Version: 1.0
 }
 .contact-us__content_container > img {
   border-radius: 8px;
+  width: 100%;
+  max-width: 656px;
 }
 .contact-us__contact_container {
   display: flex;
@@ -616,6 +675,7 @@ Version: 1.0
 .form__content {
   display: flex;
   gap: 28px;
+  flex-wrap: wrap;
 }
 .form__content > div {
   display: flex;
@@ -668,6 +728,7 @@ Version: 1.0
   margin-inline: 3.125rem;
   max-width: 83.75rem;
   align-items: start;
+  gap: 100px;
 }
 .footer_heading {
   font-size: var(--font-14px);
@@ -750,6 +811,7 @@ Version: 1.0
 .pop-up__input > input {
   min-height: 42px;
   min-width: 428px;
+  max-width: 428px;
   padding: 0 1rem;
 }
 .pop-up__input > textarea {
@@ -938,4 +1000,192 @@ Version: 1.0
 }
 .post-resume__btn:hover {
   background-color: var(--primary-color-12);
+}
+
+/* Responsive */
+@media (max-width: 1440px) {
+  .about-us__info_content_wrapper {
+    justify-content: center;
+  }
+  .about-us__info--img {
+    max-width: none;
+  }
+  .about-us__info_content {
+    max-width: none;
+  }
+  .why_choose_us__content_container {
+    justify-content: center;
+    column-gap: 250px;
+  }
+  .who-we-are__container {
+    justify-content: space-between;
+  }
+  .who-we-are__content_container {
+    max-width: 700px;
+  }
+  .contact-us__container {
+    justify-content: center;
+  }
+}
+@media (max-width: 1370px) {
+  .who-we-are__content_container {
+    max-width: 600px;
+  }
+}
+@media (max-width: 1364px) {
+  .process__content_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 82px;
+    justify-content: space-between;
+  }
+  .process__content_container > img {
+    transform: rotate(90deg);
+  }
+  .process__content {
+    max-width: none;
+  }
+}
+@media (max-width: 1270px) {
+  .who-we-are__content_container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 1184px) {
+  .services__content_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+@media (max-width: 1170px) {
+  .who-we-are__container {
+    justify-content: center;
+  }
+  .who-we-are__content_container {
+    max-width: none;
+  }
+}
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media (max-width: 674px) {
+  .form__content > div > textarea {
+    max-width: 400px;
+  }
+  .footer_content_conatiner {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+}
+@media (max-width: 588px) {
+  .pop-up__container {
+    padding: 0;
+  }
+  .pop-up__input > input,
+  .recruiter__pop-up__form_container > div > input,
+.recruiter__pop-up__form_container > div > textarea,
+.post-resume__pop-up__form_container > div > input,
+.post-resume__pop-up__form_container > div > textarea {
+    min-width: 382px;
+    max-width: 382px;
+  }
+}
+@media (max-width: 516px) {
+  .pop-up__input > input,
+  .recruiter__pop-up__form_container > div > input,
+.recruiter__pop-up__form_container > div > textarea,
+.post-resume__pop-up__form_container > div > input,
+.post-resume__pop-up__form_container > div > textarea {
+    min-width: 350px;
+    max-width: 350px;
+  }
+}
+@media (max-width: 456px) {
+.recruiter__pop-up__form_container > div > input,
+.recruiter__pop-up__form_container > div > textarea,
+.post-resume__pop-up__form_container > div > input,
+.post-resume__pop-up__form_container > div > textarea{
+      min-width: 300px;
+    max-width: 300px;
+}
+}
+@media (max-width: 467px) {
+.recruiter__pop-up__form_container > div > input,
+.recruiter__pop-up__form_container > div > textarea,
+.post-resume__pop-up__form_container > div > input,
+.post-resume__pop-up__form_container > div > textarea{
+      min-width: 250px;
+    max-width:250px;
+}
+}
+@media (min-width: 320px) and (max-width: 428px) {
+  .form__content > div > textarea {
+    max-width: 314px;
+  }
+  .hero_container {
+    height: 600px;
+  }
+  .heading--h1 {
+    font-size: var(--font-48px);
+  }
+  .hero_carousel_content_1 > .hero_carousel__content_container {
+    top: 170px;
+    left: 52px;
+  }
+  .hero_carousel_content_2 > .hero_carousel__content_container {
+    top: 250px;
+    right: 50px;
+    left: 50px;
+  }
+  .hero_carousel_content_3 > .hero_carousel__content_container {
+    top: 180px;
+    left: 80px;
+  }
+  .hero_container_4 {
+    background-position: center center;
+    background-size: cover;
+  }
+  .hero_carousel_content_4 > .hero_carousel__content_container {
+    top: 180px;
+    left: 48px;
+  }
+  .heading--h2 {
+    font-size: var(--font-32px);
+  }
+  .pop-up__input > input,
+  .recruiter__pop-up__form_container > div > input,
+.recruiter__pop-up__form_container > div > textarea,
+.post-resume__pop-up__form_container > div > input,
+.post-resume__pop-up__form_container > div > textarea {
+    min-width: 216px;
+    max-width: 216px;
+  }
+  .pop-up__input > textarea {
+    max-width: 210px;
+  }
+}
+@media (max-width: 320px) {
+  .heading--h1 {
+    font-size: var(--font-40px);
+  }
+  .hero_carousel_content_3 > .hero_carousel__content_container {
+    left: 20px;
+  }
+  .heading--h2 {
+    font-size: var(--font-24px);
+  }
+  .recruiter__pop-up__form_container > div > input,
+.recruiter__pop-up__form_container > div > textarea,
+.post-resume__pop-up__form_container > div > input,
+.post-resume__pop-up__form_container > div > textarea{
+      min-width: 200px;
+    max-width: 200px;
+}
 }
