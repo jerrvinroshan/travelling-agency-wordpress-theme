@@ -33,20 +33,23 @@
                          alt="who we are"
                          class="about-us__info--img" />
                      <div class="about-us__info_content">
-                         <p>Figma ipsum component variant main layer. Duplicate fill figma mask inspect opacity. Text prototype
-                             union layout arrow font thumbnail vector. Auto rectangle layout asset link. Content union connection
-                             boolean polygon create thumbnail community follower. Library style line clip text style ipsum select stroke polygon.
-                             Scale clip blur move community editor. Community star ellipse horizontal community ellipse star team italic. Project
-                             draft ipsum rectangle selection invite community rotate line. Background figjam distribute opacity scrolling blur.
-                             Style font ipsum outline slice clip invite. Rectangle ellipse background community bullet
-                             underline link scrolling plugin.</p>
-                         <p>Figma ipsum component variant main layer. Duplicate fill figma mask inspect opacity. Text prototype
-                             union layout arrow font thumbnail vector. Auto rectangle layout asset link. Content union connection
-                             boolean polygon create thumbnail community follower. Library style line clip text style ipsum select stroke polygon.
-                             Scale clip blur move community editor. Community star ellipse horizontal community ellipse star team italic. Project
-                             draft ipsum rectangle selection invite community rotate line. Background figjam distribute opacity scrolling blur.
-                             Style font ipsum outline slice clip invite. Rectangle ellipse background community bullet
-                             underline link scrolling plugin.</p>
+                         <p>Our proven experience strong relationships and our convenient location enable the document legalization team to quickly and proficiently handle your authentication and legalization requirements as well as any process serving giving you the peace of mind needed when dealing with these with these sensitive matters</p>
+                         <p>
+                             The embassy attests to the following
+                         <ol style="margin-left: 12px;">
+                             <li>
+                                 CV</li>
+                             <li>
+                                 Experience Certificate</li>
+                             <li>
+                                 Marriage Certificate</li>
+                             <li>
+                                 Birth Certificate</li>
+                             <li>
+                                 Educational Degrees / Certificate</li>
+                         </ol>
+                         All documents from 1 - 5 next be attested by the ministry of external affairs
+                         </p>
                      </div>
                  </div>
              </div>

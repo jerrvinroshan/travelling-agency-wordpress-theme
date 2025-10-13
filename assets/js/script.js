@@ -67,7 +67,7 @@ popFormContainer.addEventListener("submit", function (e) {
   const phoneNumber = document.getElementById("popUpPhoneNumber").value;
   const yourself = document.getElementById("popUpYourself").value;
   const whatsappNumber = "918438150717";
-  const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nDescribe Yourself: ${yourself}`;
+  const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nDescribe: ${yourself}`;
   const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     message
   )}`;
@@ -147,7 +147,7 @@ function desktopPostResume() {
     const phoneNumber = document.getElementById("applicantContact").value;
     const yourself = document.getElementById("applicantDescription").value;
     const whatsappNumber = "918438150717";
-    const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nDescribe Yourself: ${yourself}`;
+    const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nDescribe: ${yourself}`;
     const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -170,7 +170,7 @@ contactUsForm.addEventListener("submit", function (e) {
   const selectJobOrEdu = document.getElementById("jobOrEducation").value;
   const yourself = document.getElementById("message").value;
   const whatsappNumber = "918438150717";
-  const message = `Hi, Here is my detail,\nName: ${firstName} ${lastName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nLooking for: ${selectJobOrEdu}\nDescribe Yourself: ${yourself}`;
+  const message = `Hi, Here is my detail,\nName: ${firstName} ${lastName}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nLooking for: ${selectJobOrEdu}\nDescribe: ${yourself}`;
   const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     message
   )}`;
@@ -184,7 +184,7 @@ const menuContent = document.querySelector(".navbar__content_container");
 
 openMenu.addEventListener("click", function (e) {
   e.preventDefault();
-  menuContent.classList.toggle("active")
+  menuContent.classList.toggle("active");
   openMenu.classList.toggle("fa-bars");
   openMenu.classList.toggle("fa-close");
 });
@@ -259,7 +259,7 @@ function MobilePostResume() {
     const phoneNumber = document.getElementById("applicantContact").value;
     const yourself = document.getElementById("applicantDescription").value;
     const whatsappNumber = "918438150717";
-    const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Nummber: ${phoneNumber}\nDescribe Yourself: ${yourself}`;
+    const message = `Hi, Here is my detail,\nName: ${fullName}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nDescribe: ${yourself}`;
     const whatsAppMessageLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
     )}`;
