@@ -1,15 +1,13 @@
 <div class="who-we-are__container">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us/who_we_are/who-we-are.svg" alt="who-we-are"/>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us/who_we_are/who-we-are.svg" alt="who-we-are" />
     <div class="who-we-are__content_container">
         <h2 class="heading--h2">Who we are</h2>
         <div class="who-we-are__content">
-            <p>Anenth overseas consultant.pvt.ltd. is our ground breaking company, provides the
-                one stop solution to build a career in your dream country. with a better way the company was established in
-                the year of _____ at the place called Kanyakumari in the state of Tamil Nadu also known as end state in India</p>
+            <p><strong style="font-weight:700">Anent Overseas Consultant Pvt. Ltd.</strong> is a pioneering organization offering one-stop solutions for building your career in your dream country.
+                Founded in 2025 in Kanyakumari, Tamil Nadu — the southernmost tip of India — we are driven by the mission to guide individuals toward global opportunities with efficiency and reliability.</p>
             <p>
-                The company has made a major leap all over the world in the overseas recruitment
-                industry synonymous with quality, integrity & honesty while continuously to the point
-                where they consider us an extension of their team.
+                Since our inception, we have made remarkable progress in the overseas recruitment and education industry, earning a reputation for quality, integrity, and trust.
+                Today, our clients consider us not just a service provider but a trusted partner in their success.
             </p>
         </div>
     </div>

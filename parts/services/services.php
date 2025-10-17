@@ -8,11 +8,10 @@
             <!-- Content -->
             <div>
                 <p>
-                    You can choose from a wide range of Bachelor and Master Degrees in business,
-                    computer science, medical, marketing, human resource, finance, data science or
-                    a leading M.B.A many of our programmes
+                   Explore a wide range of globally recognized Bachelor’s and Master’s degree programs in fields such as Business, Computer Science, Medicine, Marketing, Human Resources, Finance, Data Science, and leading MBA specializations.
+Our programs are designed to equip you with the skills and qualifications needed to succeed in today’s global market.
                 </p>
-                <a href="https://wa.me/918438150717?text=Like to know more about how to apply for abroad education" class="services__btn" target="__blank">More Details Contact us</a>
+                <a href="https://wa.me/918438150717?text=Like to know more about how to apply for abroad education" class="services__btn" target="__blank">Contact Us for Details</a>
             </div>
         </div>
         <div class="services__content">
@@ -20,9 +19,10 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/job.svg" alt="job" />
             <div>
                 <p>
-                    We are pleased to announce that we are now accepting applications for construction, restaurant, off-shore & on-shone, miniry, weane house, hospital, industry, airport positions.
+                   Applications are now open for various international positions across multiple sectors — including Construction, Restaurants, Offshore & Onshore Operations, Mining, Warehousing, Hospitals, Industrial Facilities, and Airports.
+Join our network of global opportunities and take the next step in your career.
                 </p>
-                <a href="https://wa.me/918438150717?text=Like to know more about what are the job available" class="services__btn" target="__blank">More Details Contact us</a>
+                <a href="https://wa.me/918438150717?text=Like to know more about what are the job available" class="services__btn" target="__blank">Contact Us for Details</a>
             </div>
         </div>
     </div>

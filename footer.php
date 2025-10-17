@@ -16,19 +16,19 @@
                 <h2 class="footer_heading">Follow us on</h2>
                 <div class="social-media__content_container">
                     <a href="https://facebook.com" target="_blank" class="footer_link">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/facebook.svg" alt="Facebook" />
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/facebook-black.svg" alt="Facebook" />
                     </a>
                     <a href="https://instagram.com" target="_blank" class="footer_link">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/instagram.svg" alt="Instagram" />
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/instagram-black.svg" alt="Instagram" />
                     </a>
                     <a href="https://twitter.com" target="_blank" class="footer_link">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/twitter.svg" alt="Twitter" />
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/twitter-black.svg" alt="Twitter" />
                     </a>
                 </div>
             </div>
         </div>
         <hr />
-        <p class="footer_copyright--p">Copyright 2025</p>
+        <p class="footer_copyright--p"> © 2025 Anent Overseas Consultant Pvt. Ltd. — All Rights Reserved.</p>
     </div>
 </footer>
 <?php wp_footer() ?>

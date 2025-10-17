@@ -32,6 +32,7 @@ Version: 2.0
   /* Color */
   --primary-color-0: #edf7ff;
   --primary-color-1: #dceefe;
+  --primary-color-4: #a6d4fb;
   --primary-color-7: #6cb9f7;
   --primary-color-9: #3da7f3;
   --primary-color-10: #3491d3;
@@ -50,8 +51,9 @@ Version: 2.0
 }
 /* Banner */
 .nav_banner__bg-color {
-  background-color: #041a2b;
-  opacity: 0.8;
+  /* background-color: #041a2b; */
+  background-color: var(--primary-color-4);
+  /* opacity: 0.8; */
 }
 
 .nav_banner__section {
@@ -63,7 +65,7 @@ Version: 2.0
 }
 .navbar_link {
   text-decoration: none;
-  color: var(--primary-color-0);
+  color: var(--primary-color-17);
   font-size: var(--font-14px);
 }
 .nav_banner__contact_container {
@@ -114,7 +116,7 @@ Version: 2.0
 /* Mobile */
 .mobile {
   display: none;
-  background-color: #041a2b;
+  background-color: var(--primary-color-4);
   color: var(--primary-color-0);
 }
 .navbar__container_menu {
@@ -126,7 +128,7 @@ Version: 2.0
   align-items: center;
 }
 .navbar__container_menu > i {
-  color: var(--primary-color-0);
+  color: var(--primary-color-17);
 }
 .navbar__content_container {
   flex-direction: column;
@@ -136,13 +138,16 @@ Version: 2.0
   align-items: center;
   display: none;
 }
-.navbar__content_container.active{
+.navbar__content_container.active {
   display: flex;
 }
 .navbar__content_container > a {
-  color: var(--primary-color-0);
+  color: var(--primary-color-17);
   text-decoration: none;
   font-size: var(--font-14px);
+}
+.navbar__content_container > .navbar_call-btn {
+  color: var(--primary-color-0);
 }
 
 /* Home page */
@@ -260,7 +265,7 @@ Version: 2.0
   padding: 12px 24px;
   background-color: var(--primary-color-9);
   color: var(--primary-color-0);
-  max-width: 172px;
+  max-width: 120px;
   font-size: var(--font-14px);
   border-radius: 4px;
 }
@@ -362,11 +367,20 @@ Version: 2.0
   display: flex;
   flex-direction: column;
   gap: 12px;
+  max-width: 314px;
 }
-.why_choose_us__content > .heading--h3 {
+.why_choose_us__content > div{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.why_choose_us__content > div > .heading--h3 {
   font-size: var(--font-20px);
   font-family: var(--header-font);
   font-weight: 700;
+}
+.why_choose_us__content > div >p{
+  font-size: var(--font-14px);
 }
 
 /* Who we are */
@@ -480,6 +494,9 @@ Version: 2.0
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
+}
+.testimonials_content > p {
+  font-size: var(--font-14px);
 }
 .testimonials_content_header > h3 {
   font-size: var(--font-20px);
@@ -710,8 +727,8 @@ Version: 2.0
 
 /* Footer Section */
 .footer_section {
-  background-color: var(--primary-color-12);
-  color: var(--primary-color-1);
+  background-color: var(--primary-color-4);
+  color: var(--primary-color-17);
   margin-top: 92px;
 }
 .footer_container {
@@ -733,16 +750,21 @@ Version: 2.0
 .footer_heading {
   font-size: var(--font-14px);
   font-weight: 700;
-  color: var(--primary-color-1);
+  color: var(--primary-color-17);
 }
 .footer_menu_container {
   display: flex;
   flex-direction: column;
   gap: 0.875rem;
 }
+.footer_container > hr {
+  background-color: var(--primary-color-17);
+  border: none;
+  height: 0.5px
+}
 .footer_link {
   text-decoration: none;
-  color: var(--primary-color-1);
+  color: var(--primary-color-17);
 }
 .footer_menu_content_container {
   display: flex;
@@ -760,7 +782,7 @@ Version: 2.0
   font-size: var(--font-14px);
   font-weight: 400;
   text-align: center;
-  color: var(--primary-color-1);
+  color: var(--primary-color-17);
 }
 
 /* Pop up */
@@ -1090,9 +1112,9 @@ Version: 2.0
   }
   .pop-up__input > input,
   .recruiter__pop-up__form_container > div > input,
-.recruiter__pop-up__form_container > div > textarea,
-.post-resume__pop-up__form_container > div > input,
-.post-resume__pop-up__form_container > div > textarea {
+  .recruiter__pop-up__form_container > div > textarea,
+  .post-resume__pop-up__form_container > div > input,
+  .post-resume__pop-up__form_container > div > textarea {
     min-width: 382px;
     max-width: 382px;
   }
@@ -1100,30 +1122,30 @@ Version: 2.0
 @media (max-width: 516px) {
   .pop-up__input > input,
   .recruiter__pop-up__form_container > div > input,
-.recruiter__pop-up__form_container > div > textarea,
-.post-resume__pop-up__form_container > div > input,
-.post-resume__pop-up__form_container > div > textarea {
+  .recruiter__pop-up__form_container > div > textarea,
+  .post-resume__pop-up__form_container > div > input,
+  .post-resume__pop-up__form_container > div > textarea {
     min-width: 350px;
     max-width: 350px;
   }
 }
 @media (max-width: 456px) {
-.recruiter__pop-up__form_container > div > input,
-.recruiter__pop-up__form_container > div > textarea,
-.post-resume__pop-up__form_container > div > input,
-.post-resume__pop-up__form_container > div > textarea{
-      min-width: 300px;
+  .recruiter__pop-up__form_container > div > input,
+  .recruiter__pop-up__form_container > div > textarea,
+  .post-resume__pop-up__form_container > div > input,
+  .post-resume__pop-up__form_container > div > textarea {
+    min-width: 300px;
     max-width: 300px;
-}
+  }
 }
 @media (max-width: 467px) {
-.recruiter__pop-up__form_container > div > input,
-.recruiter__pop-up__form_container > div > textarea,
-.post-resume__pop-up__form_container > div > input,
-.post-resume__pop-up__form_container > div > textarea{
-      min-width: 250px;
-    max-width:250px;
-}
+  .recruiter__pop-up__form_container > div > input,
+  .recruiter__pop-up__form_container > div > textarea,
+  .post-resume__pop-up__form_container > div > input,
+  .post-resume__pop-up__form_container > div > textarea {
+    min-width: 250px;
+    max-width: 250px;
+  }
 }
 @media (min-width: 320px) and (max-width: 428px) {
   .form__content > div > textarea {
@@ -1161,9 +1183,9 @@ Version: 2.0
   }
   .pop-up__input > input,
   .recruiter__pop-up__form_container > div > input,
-.recruiter__pop-up__form_container > div > textarea,
-.post-resume__pop-up__form_container > div > input,
-.post-resume__pop-up__form_container > div > textarea {
+  .recruiter__pop-up__form_container > div > textarea,
+  .post-resume__pop-up__form_container > div > input,
+  .post-resume__pop-up__form_container > div > textarea {
     min-width: 216px;
     max-width: 216px;
   }
@@ -1182,10 +1204,10 @@ Version: 2.0
     font-size: var(--font-24px);
   }
   .recruiter__pop-up__form_container > div > input,
-.recruiter__pop-up__form_container > div > textarea,
-.post-resume__pop-up__form_container > div > input,
-.post-resume__pop-up__form_container > div > textarea{
-      min-width: 200px;
+  .recruiter__pop-up__form_container > div > textarea,
+  .post-resume__pop-up__form_container > div > input,
+  .post-resume__pop-up__form_container > div > textarea {
+    min-width: 200px;
     max-width: 200px;
-}
+  }
 }

@@ -1,12 +1,17 @@
      <div class="about-us__content_container">
          <h2 class="heading--h2">About us </h2>
          <div class="about-us__intro_container">
-             <p>Welcome to Anenth Overseas consultant Pvt.Ltd. as Kanyakumari.
-                 As The Premier Study & Job National and International consultancy in Kanyakumari.
-                 We are an national and international Study and Recruitment Agency departing all category as per the needs and requirements.
-                 At Anenth Overseas consultant pvt.ltd.
-                 we support organizations to get the right candidates and also support the candidate to get their dream
-                 job and study in national and international for their various requirements</p>
+             <div style="display: flex; flex-direction:column; gap:1rem">
+                 <p>Welcome to <strong style="font-weight:700">Anent Overseas Consultant Pvt. Ltd.</strong>,
+                     your trusted partner in Kanyakumari for national and
+                     international study and career opportunities.
+                     As a leading consultancy in the region, we specialize in connecting
+                     individuals with the right educational and employment pathways — both in India and abroad.</p>
+                 <p>At <strong style="font-weight:700">Anent Overseas Consultant Pvt. Ltd.</strong>, we are dedicated to helping organizations
+                     find ideal candidates while empowering individuals to achieve their academic and professional goals.
+                     Whether you aim to study or work nationally or internationally,
+                     our services are tailored to your unique needs and aspirations.</p>
+             </div>
              <div class="about-us__info_content_container">
                  <div class="about-us__info_content_wrapper">
                      <img
@@ -15,16 +20,13 @@
                          class="about-us__info--img" />
                      <div class="about-us__info_content">
                          <h4 class="heading--h4">What we do</h4>
-                         <p>To build the lives of people by providing fair
-                             and challenging employment opportunities all over
-                             the world through the best possible customer services
-                             which enhance our company’s good will. we are committed to
-                             growing with our customers and clients by delivering great business
-                             values our qualified and highly dedicated recruitment resources are committed to
-                             providing comprehensive effective and unparalleled services to client our team is
-                             trained to handle all aspects of manpower and study mobilization screening and
-                             documentation are will versed with the nitty-gritty of the manpower recruitment
-                             and study admission process. </p>
+                         <div style="display: flex; flex-direction:column; gap:1rem;">
+                             <p>We transform lives by offering fair, rewarding, and globally recognized employment and study opportunities.
+Our mission is to grow with our clients by providing exceptional value, outstanding service, and long-term partnership.</p>
+                             <p>Our highly qualified and dedicated recruitment professionals deliver comprehensive, effective, and unmatched support.
+Well-trained in all aspects of manpower sourcing and study placements, we expertly handle candidate screening, documentation, and the complete recruitment or admission process — ensuring a smooth, transparent, and successful experience for every client.
+                             </p>
+                         </div>
                      </div>
                  </div>
                  <div class="about-us__info_content_wrapper right_image">
@@ -33,25 +35,20 @@
                          alt="who we are"
                          class="about-us__info--img" />
                      <div class="about-us__info_content">
-                         <p>Our proven experience strong relationships and our convenient location enable the document legalization team to quickly and proficiently handle your authentication and legalization requirements as well as any process serving giving you the peace of mind needed when dealing with these with these sensitive matters</p>
-                         <p>
-                             The embassy attests to the following
-                         <ol style="margin-left: 12px;">
-                             <li>
-                                 CV</li>
-                             <li>
-                                 Experience Certificate</li>
-                             <li>
-                                 Marriage Certificate</li>
-                             <li>
-                                 Birth Certificate</li>
-                             <li>
-                                 Educational Degrees / Certificate</li>
-                         </ol>
-                         All documents from 1 - 5 next be attested by the ministry of external affairs
-                         </p>
+                         <p>With years of proven experience and strong industry relationships, our document legalization team manages your authentication and legalization needs efficiently and accurately.
+We handle even the most sensitive documents with professionalism and care, ensuring complete peace of mind.</p>
+                         <div>
+                             <strong style="font-weight: 700;"> The Embassy Provides Attestation for:</strong>
+                             <ol style="margin-left: 20px;">
+                                 <li>Curriculum Vitae (CV)</li>
+                                 <li> Experience Certificate</li>
+                                 <li> Marriage Certificate</li>
+                                 <li> Birth Certificate</li>
+                                 <li> Educational Degrees / Certificates</li>
+                             </ol>
+                             <p style="font-size: var(--font-12px);margin-top:0.5rem"> <strong style="font-weight: 700;">Note:</strong> All the above documents must first be attested by the Ministry of External Affairs.</p>
+                         </div>
                      </div>
                  </div>
              </div>
          </div>
-     </div>

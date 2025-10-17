@@ -5,15 +5,15 @@
  <section id="home">
      <div class="hero_container">
          <div class="hero_container_slider">
-             <div class="hero_container_1 hero_container_image" data-slide="0">
+             <div class="hero_container_1 hero_container_image">
                  <div class="hero_carousel_content_1">
                      <div class="hero_carousel__content_container">
                          <div class="hero_slide__content">
                              <div class="hero_carousel__content">
                                  <h1 class="heading--h1">Planning for Abroad Education or Job</h1>
-                                 <p>Its simple as you think it would be</p>
+                                 <p>It’s simpler than you think — take the first step toward your dream future today.</p>
                              </div>
-                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">To know more detail</a>
+                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">Know More</a>
                          </div>
                      </div>
                  </div>
@@ -23,10 +23,10 @@
                      <div class="hero_carousel__content_container">
                          <div class="hero_slide__content">
                              <div class="hero_carousel__content">
-                                 <h1 class="heading--h1">Looking for Overseas Job</h1>
-                                 <p>Here we’re to Help you get your Job in Abroad</p>
+                                 <h1 class="heading--h1">Looking for an Overseas Job?</h1>
+                                 <p>We’re here to help you secure the right job abroad with complete guidance.</p>
                              </div>
-                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">To know more detail</a>
+                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">Know More</a>
                          </div>
                      </div>
                  </div>
@@ -36,10 +36,10 @@
                      <div class="hero_carousel__content_container">
                          <div class="hero_slide__content">
                              <div class="hero_carousel__content">
-                                 <h1 class="heading--h1">Dream of being in Abroad</h1>
-                                 <p>Here we’re to Help you get your Job in Abroad</p>
+                                 <h1 class="heading--h1">Dreaming of Life Abroad?</h1>
+                                 <p>Your dream destination awaits — let us guide you through every step of your overseas journey.</p>
                              </div>
-                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">To know more detail</a>
+                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">Know More</a>
                          </div>
                      </div>
                  </div>
@@ -49,10 +49,10 @@
                      <div class="hero_carousel__content_container">
                          <div class="hero_slide__content">
                              <div class="hero_carousel__content">
-                                 <h1 class="heading--h1">Want to Do your Mastering in abroad</h1>
-                                 <p>HHere we’re to Help you get your Job in Abroad</p>
+                                 <h1 class="heading--h1">Planning to Pursue a Master’s Abroad?</h1>
+                                 <p>We make your international education journey seamless and stress-free.</p>
                              </div>
-                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">To know more detail</a>
+                             <a href="https://wa.me/918438150717?text=Hi, Like to know more" target="_blank" class="hero__link">Know More</a>
                          </div>
                      </div>
                  </div>
@@ -62,10 +62,10 @@
 
      </div>
      <div class="indicator_container">
-         <p class="indicator active" data-index="0"></p>
-         <p class="indicator" data-index="1"></p>
-         <p class="indicator" data-index="2"></p>
-         <p class="indicator" data-index="3"></p>
+         <p class="indicator active"></p>
+         <p class="indicator"></p>
+         <p class="indicator"></p>
+         <p class="indicator"></p>
      </div>
  </section>
 
