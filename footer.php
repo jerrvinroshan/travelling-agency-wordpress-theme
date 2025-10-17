@@ -15,13 +15,13 @@
             <div class="footer_menu_container">
                 <h2 class="footer_heading">Follow us on</h2>
                 <div class="social-media__content_container">
-                    <a href="https://facebook.com" target="_blank" class="footer_link">
+                    <a href="<?php echo esc_url(get_theme_mod('facebook')) ?>" target="_blank" class="footer_link">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/facebook-black.svg" alt="Facebook" />
                     </a>
-                    <a href="https://instagram.com" target="_blank" class="footer_link">
+                    <a href="<?php echo esc_url(get_theme_mod('instagram')) ?>" target="_blank" class="footer_link">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/instagram-black.svg" alt="Instagram" />
                     </a>
-                    <a href="https://twitter.com" target="_blank" class="footer_link">
+                    <a href="<?php echo esc_url(get_theme_mod('twitter')) ?>" target="_blank" class="footer_link">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/twitter-black.svg" alt="Twitter" />
                     </a>
                 </div>
@@ -39,7 +39,7 @@
 <?php get_template_part("/parts/model-popup/recruiter-zone", "recruiter zone") ?>
 
 <!-- Post Resume -->
-<?php get_template_part("/parts/model-popup/post-resume","post resume")?>
+<?php get_template_part("/parts/model-popup/post-resume", "post resume") ?>
 
 <!-- Script -->
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/script.js"></script>

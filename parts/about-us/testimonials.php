@@ -3,51 +3,37 @@
     <div class="testimonials_container">
         <div class="testimonials_content_container--bg">
             <div class="testimonials_content_container">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/images/about-us/testimonials/testimonial_1.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/profile.svg" alt="">
                 <div class="testimonials_content">
                     <div class="testimonials_content_header">
-                        <h3>Ramesh</h3>
-                        <p>Working place(job title) or Education college</p>
+                        <h3>Rahul</h3>
+                        <p>Software Developer, Dubai</p>
                     </div>
-                    <p>Figma ipsum component variant main layer. Invite style italic vertical edit italic main.
-                        Scrolling flatten variant figma outline inspect prototype vertical arrange.
-                        Pixel scale community stroke line selection fill. Blur prototype boolean bullet auto
-                        library library italic hand asset. Background plugin layer figjam arrow. Bold star shadow
-                        link bold stroke edit. Create draft overflow flows scale. Rectangle device shadow line opacity arrow.
-                        Plugin layer outline invite arrow prototype flatten strikethrough vector.</p>
+                    <p>Thanks to their support, I landed a job overseas within weeks. The entire process which from application to visa it was smooth and stress-free. Their team truly knows what they’re doing.</p>
                 </div>
             </div>
         </div>
         <div class="testimonials_content_container--bg">
             <div class="testimonials_content_container">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/images/about-us/testimonials/testimonial_2.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/profile.svg" alt="">
                 <div class="testimonials_content">
                     <div class="testimonials_content_header">
-                        <h3>Sita</h3>
-                        <p>Working place(job title) or Education college</p>
+                        <h3>Harini</h3>
+                        <p>Master’s Student, University of Toronto</p>
                     </div>
-                    <p>Figma ipsum component variant main layer. Invite style italic vertical edit italic main.
-                        Scrolling flatten variant figma outline inspect prototype vertical arrange.
-                        Pixel scale community stroke line selection fill. Blur prototype boolean bullet auto
-                        library library italic hand asset.
-                        Background plugin layer figjam arrow.</p>
+                    <p>Studying abroad always felt like a dream, but they made it real. From choosing the right university to getting my visa sorted, I felt supported at every step.</p>
                 </div>
             </div>
         </div>
         <div class="testimonials_content_container--bg">
             <div class="testimonials_content_container">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/images/about-us/testimonials/testimonial_3.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon/profile.svg" alt="">
                 <div class="testimonials_content">
                     <div class="testimonials_content_header">
-                        <h3>Ravi</h3>
-                        <p>Working place(job title) or Education college</p>
+                        <h3>Bala Murugan</h3>
+                        <p>Mechanical Engineer, Germany</p>
                     </div>
-                    <p>Figma ipsum component variant main layer. Invite style italic vertical edit italic main.
-                        Scrolling flatten variant figma outline inspect prototype vertical arrange.
-                        Pixel scale community stroke line selection fill. Blur prototype boolean bullet auto
-                        library library italic hand asset. Background plugin layer figjam arrow. Bold star shadow
-                        link bold stroke edit. Create draft overflow flows scale. Rectangle device shadow line opacity arrow.
-                        Plugin layer outline invite arrow prototype flatten strikethrough vector.</p>
+                    <p>I was hesitant at first, but their guidance gave me the confidence to move forward. The process was clear, and they were always available when I had questions. Highly recommended!</p>
                 </div>
             </div>
         </div>

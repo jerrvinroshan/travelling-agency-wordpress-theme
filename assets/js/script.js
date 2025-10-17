@@ -77,6 +77,7 @@ popFormContainer.addEventListener("submit", function (e) {
 popUpCloseIcon.addEventListener("click", function (e) {
   e.preventDefault();
   popContainer.style.display = "none";
+  // Time out
   setTimeout(() => {
     popContainer.style.display = "flex";
   }, 10000);

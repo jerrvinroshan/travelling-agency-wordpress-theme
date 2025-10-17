@@ -1,5 +1,5 @@
 /* 
-Theme Name: Consultant Agency
+Theme Name: Travelling Consultant Agency
 Author: CookiesSpace.pvt.ltd
 Author URI: https://cookiesspace.com
 Version: 2.0
@@ -34,6 +34,7 @@ Version: 2.0
   --primary-color-1: #dceefe;
   --primary-color-4: #a6d4fb;
   --primary-color-7: #6cb9f7;
+  --primary-color-8: #56B0F5;
   --primary-color-9: #3da7f3;
   --primary-color-10: #3491d3;
   --primary-color-12: #226697;
@@ -424,7 +425,10 @@ Version: 2.0
   flex-direction: column;
   gap: 52px;
 }
-
+.process_step--h2{
+  font-size: 64px;
+  color: var(--primary-color-7);
+}
 .process__container > div {
   display: flex;
   flex-direction: column;
@@ -554,7 +558,7 @@ Version: 2.0
   font-size: var(--font-14px);
   color: var(--primary-color-13);
   border: 1px solid var(--primary-color-13);
-  max-width: 196px;
+  max-width: 178px;
   padding: 12px 20px;
   border-radius: 4px;
   text-decoration: none;

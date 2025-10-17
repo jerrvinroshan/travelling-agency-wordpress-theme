@@ -25,7 +25,7 @@
         <div class="why_choose_us__content">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us/why-choose-us/agreement.svg" alt="agreement" />
             <div>
-                <h3 class="heading--h3">Take care all process</h3>
+                <h3 class="heading--h3">End to End process handling</h3>
                 <p>From documentation to visa to placement, we take care of the entire process for you.</p>
             </div>
         </div>

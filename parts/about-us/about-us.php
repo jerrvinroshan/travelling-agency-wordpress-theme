@@ -21,10 +21,10 @@
                      <div class="about-us__info_content">
                          <h4 class="heading--h4">What we do</h4>
                          <div style="display: flex; flex-direction:column; gap:1rem;">
-                             <p>We transform lives by offering fair, rewarding, and globally recognized employment and study opportunities.
+                             <p>We transform lives by offering fair, rewarding, globally recognized employment and study opportunities.
 Our mission is to grow with our clients by providing exceptional value, outstanding service, and long-term partnership.</p>
                              <p>Our highly qualified and dedicated recruitment professionals deliver comprehensive, effective, and unmatched support.
-Well-trained in all aspects of manpower sourcing and study placements, we expertly handle candidate screening, documentation, and the complete recruitment or admission process — ensuring a smooth, transparent, and successful experience for every client.
+Well-trained in all aspects of manpower sourcing and study placements, we expertly handle candidate screening, documentation, and the complete recruitment or admission process. Thus we ensure a smooth, transparent, and successful experience for every client.
                              </p>
                          </div>
                      </div>
