@@ -56,10 +56,6 @@ const popContainer = document.querySelector(".pop-up_overlay");
 const popUpCloseIcon = document.querySelector(".pop-up__form_close-icon");
 const popFormContainer = document.querySelector(".pop-up__form_container");
 
-setTimeout(() => {
-  popContainer.style.display = "flex";
-}, 3000);
-
 popFormContainer.addEventListener("submit", function (e) {
   e.preventDefault();
   const fullName = document.getElementById("popUpFullName").value;
@@ -74,13 +70,23 @@ popFormContainer.addEventListener("submit", function (e) {
   window.open(whatsAppMessageLink, "__blank");
 });
 
-popUpCloseIcon.addEventListener("click", function (e) {
+// Pop up Timer
+sessionStorage.setItem("popupClosed", "false");
+if (sessionStorage.getItem("popupClosed") === "true") {
+  popContainer.style.display = "none";
+} else {
+  popContainer.style.display = "flex";
+}
+
+popUpCloseIcon.addEventListener("click", (e) => {
   e.preventDefault();
   popContainer.style.display = "none";
-  // Time out
+  sessionStorage.setItem("popupClosed", "true");
+
   setTimeout(() => {
+    sessionStorage.removeItem("popupClosed");
     popContainer.style.display = "flex";
-  }, 10000);
+  }, 1 *30 *60 * 1000);
 });
 
 // Recruiter Zone
